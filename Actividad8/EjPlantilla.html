@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla basica</title>
+    <style>
+
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        table{
+            height: 100vh;
+            width: 100%;
+            margin: 0%;
+            }
+            /*table,td,tr{
+                border: 1px solid black;
+            }*/
+            th{
+                background-color: rgb(2, 202, 69);
+            }
+            /*Las clases se utilizan para dar estilos iguales a mas de un elemento se usa .nombre_clase y se llama class="nombre_clase"*/
+            .Articulo{
+                background-color: rgb(3, 179, 126);
+            }
+            #navega{
+                background-color: rgb(47, 255, 134);
+            }
+            #barralat{
+                background-color: rgb(24, 214, 157);
+            }
+            /* Los id se utilizan para dar estilos a un elemento en concreto, se usa #nombre_id y se llama id="nombre_id"*/
+            #pie{
+                background-color: rgb(58, 0, 36);
+                color: blanchedalmond;
+            }
+            
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <!--Dos columnas para la cabecera-->
+            <th colspan="2">cabecera</th>
+        </tr>
+
+        <tr>
+            <td id="navega" colspan="2">
+                <nav>Barra de navegacion</nav>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="Articulo">
+                <article>Articulo 1</article>
+            </td>
+            <td id="barralat" rowspan="4" width="20%"><aside>aside</aside></td>
+        </tr>
+
+        <tr>
+            <td class="Articulo">
+                <article>Articulo2</article>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="Articulo">
+            <article>Articulo3</article>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="Articulo">
+            <article>Articulo4</article>
+            </td>
+        </tr>
+
+        <tr>
+            <td id="pie" colspan="2">
+                <footer>Pie de pagina</footer>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
