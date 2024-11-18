@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabla criptomonedas</title>
     <style>
         body{
             padding: 0%;
@@ -13,76 +13,94 @@
             height: 100vh;
             width: 100%;
             margin: 0%;
+            font-size: 125%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        td{
+            border-bottom: rgba(0, 0, 0, 0.055) solid 3px;
+            
         }
         img{
-            width: 30px;
+            width: 70%;
         }
         .change{
             color: rgb(47, 131, 92);
         }
-        .grafica{
-            width: 65%;
+
+        .pA{
+            width: 5%;
         }
-        .buy{
-            width: 60px;
-        }
-        .monedas´{
+        .sA{
+            width: 40%;
             text-align: left;
-            width: 100px;
         }
+        .tA{
+            width: 10%;
+        }
+        .cA{
+            width: 15%;
+        }
+        .texto{
+            text-align: center;
+        }
+        
 
     </style>
 </head>
 <body>
     <table>
         <tr>
-            <th colspan="6">Tabla criptomondedas</th>
+            <th colspan="7">Tabla criptomondedas</th>
         </tr>
 
         <tr>
-            <td>#</td>
-            <td  style="width: 10px;">Name</td>
-            <td></td>
-            <td>Price</td>
-            <td>Change</td>
-            <td>Chart</td>
-            <td>Trade</td>
+            <td  class="pA texto">#</td>
+            <td  class="pA texto">Name</td>
+            <td  class="sA"></td>
+            <td  class="tA">Price</td>
+            <td  class="tA">Change</td>
+            <td  class="cA">Chart</td>
+            <td  class="tA">Trade</td>
         </tr>
 
         <tr>
-            <td>1</td>
-            <td><img src="/Actividad8/imagenes_tabla_criptomonedas/bitcoin.png"></td><td class="monedas">Bitcoin</td>
+            <td class="texto">1</td>
+            <td><img src="/imagenes_tabla_criptomonedas/bitcoin.png"></td>
+            <td>Bitcoin</td>
             <td>€8.805.61</td>
-            <td id="change">+ 7.56%</td>
-            <td><img class="grafica" src="/Actividad8/imagenes_tabla_criptomonedas/grafica.png"></td>
-            <td><img class="buy" src="/Actividad8/imagenes_tabla_criptomonedas/buy_button.png"></td>
+            <td class="change">+ 7.56%</td>
+            <td><img src="/imagenes_tabla_criptomonedas/grafica.png"></td>
+            <td><img src="/imagenes_tabla_criptomonedas/buy_button.png"></td>
         </tr>
 
         <tr>
-            <td>2</td>
-            <td><img src="/Actividad8/imagenes_tabla_criptomonedas/ethereum.png"></td><td class="monedas">Ethereum</td>
+            <td class="texto">2</td>
+            <td><img src="/imagenes_tabla_criptomonedas/ethereum.png"></td>
+            <td>Ethereum</td>
             <td>€168.91</td>
             <td class="change">+ 6.02%</td>
-            <td><img class="grafica" src="/Actividad8/imagenes_tabla_criptomonedas/grafica.png"></td>
-            <td><img class="buy" src="/Actividad8/imagenes_tabla_criptomonedas/buy_button.png"></td>
+            <td><img src="/imagenes_tabla_criptomonedas/grafica.png"></td>
+            <td><img src="/imagenes_tabla_criptomonedas/buy_button.png"></td>
         </tr>
 
         <tr>
-            <td>3</td>
-            <td><img src="/Actividad8/imagenes_tabla_criptomonedas/bitcoin_cash.png"></td><td class="monedas">Bitcoin Cash</td>
+            <td class="texto">3</td>
+            <td><img src="/imagenes_tabla_criptomonedas/bitcoin_cash.png"></td>
+            <td>Bitcoin Cash</td>
             <td>€240.48</td>
             <td class="change">+ 7.72%</td>
-            <td><img class="grafica" src="/Actividad8/imagenes_tabla_criptomonedas/grafica.png"></td>
-            <td><img class="buy" src="/Actividad8/imagenes_tabla_criptomonedas/buy_button.png"></td>
+            <td><img src="/imagenes_tabla_criptomonedas/grafica.png"></td>
+            <td><img src="/imagenes_tabla_criptomonedas/buy_button.png"></td>
         </tr>
 
         <tr>
-            <td>4</td>
-            <td><img src="/Actividad8/imagenes_tabla_criptomonedas/litecoin.png"></td><td class="monedas">Litecoin</td>
+            <td class="texto">4</td>
+            <td><img src="/imagenes_tabla_criptomonedas/litecoin.png"></td>
+            <td>Litecoin</td>
             <td>€55.16</td>
             <td class="change">+ 9.96%</td>
-            <td><img class="grafica" src="/Actividad8/imagenes_tabla_criptomonedas/grafica.png"></td>
-            <td><img class="buy" src="/Actividad8/imagenes_tabla_criptomonedas/buy_button.png"></td>
+            <td><img src="/imagenes_tabla_criptomonedas/grafica.png"></td>
+            <td><img src="/imagenes_tabla_criptomonedas/buy_button.png"></td>
         </tr>
     </table>
 </body>
