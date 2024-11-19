@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+table{
+    border: 5px solid black;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+th{
+    border: 2px solid black;
+    background-color: #999999;
+    padding: 0;
+    margin: 0;
+}
+td{
+    border: 2px solid black;
+    background-color: #999999;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+}
+.titulo{
+    background-color:#343d47;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'PT Sans', Arial, Verdana;
+background-color: #eee;
+}
+
+h1 {
+text-align: center;
+font-size: 48px;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #222;
+}
+
+li {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegacion*/
+
+.navega{ 
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #e2cdcd;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    z-index: 9;
+}
+.navActive {
+    background-color: #049fbb00;
+    pointer-events: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #e2cdcd;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    z-index: 9;
+}
+.menu{ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #343d47;
+    z-index: 7;
+}
+
+.menu li:nth-child(1):hover,
+.menu li:nth-child(1):focus,
+.menu li:nth-child(1):active {
+& ~ .slider {
+    left: 0;
+    background-color: #e0a911d0;
+    }
+}
+
+
+.menu li:nth-child(2):hover,
+.menu li:nth-child(2):focus,
+.menu li:nth-child(2):active {
+& ~ .slider {
+    left: 25%;
+    background-color: #e46c86dc;
+    }
+}
+
+.menu li:nth-child(3):hover,
+.menu li:nth-child(3):focus,
+.menu li:nth-child(3):active {
+& ~ .slider {
+    left: 50%;
+    background-color: #00998cd3;
+    }
+}
+
+.menu li:nth-child(4):hover,
+.menu li:nth-child(4):focus,
+.menu li:nth-child(4):active {
+& ~ .slider {
+    left: 75%;
+    background-color: #d82626b0;
+    }
+}
