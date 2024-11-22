@@ -9,15 +9,19 @@ table{
     width: 100%;
     text-align: center;
 }
+.encabezado{
+    height: 100px;
+}
 th{
     border: 0px;
     background-color: #999999;
     padding: 0;
     margin: 0;
+    height: 100px;
 }
 td{
     border-collapse: collapse;
-
+    
     background-color: #999999;
     padding: 0;
     margin: 0;
@@ -177,4 +181,20 @@ img{
     background: url(/Imagenes/Sin\ titulo3.png) no-repeat ;
     width: 15%;
     background-color: #ff9ea698;
+  }
+  .DesContacto{
+    background-color: #398d786c;
+}
+  .CabContacto{
+    background: url(/Imagenes/Sin\ título5.png) no-repeat ;
+    width: 15%;
+    background-color: #398d786c;
+  }
+  .DesExtra{
+    background-color: #b8181296;
+}
+  .CabExtra{
+    background: url(/Imagenes/Sin\ título7.png) no-repeat ;
+    width: 15%;
+    background-color: #b8181296;
   }
