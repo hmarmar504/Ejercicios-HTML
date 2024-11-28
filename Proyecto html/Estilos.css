@@ -20,8 +20,6 @@ th{
     height: 100px;
 }
 td{
-    border-collapse: collapse;
-    
     background-color: #999999;
     padding: 0;
     margin: 0;
@@ -35,7 +33,7 @@ td{
 html, body {
 margin: 0;
 padding: 0;
-height: 200vh;
+
 }
 
 body {
@@ -137,7 +135,7 @@ li {
 }
 /*Imagenes y fondos*/
 img{
-    width: 100%; 
+    
     text-align: center;
     position: relative;
 }
@@ -156,6 +154,7 @@ img{
     overflow: hidden; /*es importante especificar que todo lo que se salga de la card se oculte*/
   }
   .imagen{
+    width: 100%;
     transform: scale(var(--escala, 1));
     transition: transform 0.25s;
     position: relative
@@ -172,9 +171,11 @@ img{
     background-color: #fadb2fcb;
   }
   .DesInicio{
+    height: 20%;
     background-color: #fadb2fcb;
   }
   .DesTienda{
+    height: 15%;
     background-color: #ff9ea698;
 }
   .CabTienda{
@@ -183,6 +184,7 @@ img{
     background-color: #ff9ea698;
   }
   .DesContacto{
+    height: 20%;
     background-color: #398d786c;
 }
   .CabContacto{
@@ -191,6 +193,7 @@ img{
     background-color: #398d786c;
   }
   .DesExtra{
+    height: 25%;
     background-color: #b8181296;
 }
   .CabExtra{
