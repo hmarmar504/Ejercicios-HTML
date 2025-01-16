@@ -1,0 +1,29 @@
+/*Selector univerlsa*/
+*{margin: 0px}
+/*Selector de tipo*/
+p, div {font-family: verdana;color:red}
+/*Selector descendiente*/
+p a {font-size: 50px;}
+div * p {font-size: 50px;}/*Excluir de la seleccio a los hijos*/
+/*Selector Hijo*/
+div > p {font-size: 50px; color:blue;}
+/*Selector adyacente*/
+li:first-of-type + li {color:yellow;}
+/*Selector de clase punto .nombre_clase*/
+.clase{color: aqua;}
+/*Selector de id #nombreid*/
+#id {color: brown;}
+
+/*Pseudoclases*/
+a:link{color:black}/*enlaces sin visitar negro*/
+a:visited{color:blue}/*enlaces visitados azul*/
+a:hover{color:green}/*con el raton encima verde*/
+a:active{color:red}/*presionando el boton -> rojo*/
+a:focus{background-color: yellow;}/*con el fondo amarillo*/
+
+h1::before{content: "Encabezado ---";}
+h1::after{content: "--- Fin de texto";}
+p.pseudo:first-line{font-size: 20px;}
+p.pesudo:first-letter{font-size: 3em;}
+
+#prueba::first-letter{font-size: 3em; color: blue;}

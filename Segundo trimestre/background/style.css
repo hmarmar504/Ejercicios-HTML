@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-image: url(imgaenes/fondo.jpg);
+    background-repeat:repeat;
+    background-position:bottom;
+    background-attachment:fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1{
+    border: 3px solid black;
+    text-align: center;
+    margin:10px;
+    background-color: orange;
+    font-size: 40px;
+}
+h2{
+    border: 3px solid black;
+    text-align: center;
+    margin:10px;
+    background-color: red;
+    font-size: 30px;
+}
+p{
+    border: 3px solid black;
+    text-align: center;
+    margin:10px;
+    background-color: yellow;
+    margin-top: 30px;
+}

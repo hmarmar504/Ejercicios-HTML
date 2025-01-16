@@ -1,0 +1,27 @@
+h2{color: blue;}
+acronym:hover{color: green;}
+.dmc{
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+a:link{color:black}
+a:visited{color:blue}
+a:hover{color:yellow}
+
+#parrafo_intro{font-size:13px;}
+#img_delorean{border: 2px dotted red;}
+#img_motor{height:500px;}
+#vin{color: purple;}
+
+#ficha * ul{
+    font-weight: bold;
+}
+#pie{
+    text-align: right;
+    color: gray;   
+    }
+li::first-letter{font-size: 40px;}
+.anio{
+color: orange;
+}
