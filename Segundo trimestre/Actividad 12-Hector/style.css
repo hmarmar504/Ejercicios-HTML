@@ -1,0 +1,202 @@
+.caja1{
+    width: 48px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.100);
+    margin: 8px;
+}
+.caja2{
+    width: 64px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.200);
+    margin: 8px;
+
+}
+.caja3{
+    width: 80px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.300);
+    margin: 8px;
+
+}
+.caja4{
+    width: 96px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.400);
+    margin: 8px;
+
+}
+.caja5{
+    width: 112px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.500);
+    margin: 8px;
+
+}
+.caja6{
+    width: 128px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.600);
+    margin: 8px;
+
+}
+.caja7{
+    width: 144px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.700);
+    margin: 8px;
+
+}
+.caja8{
+    width: 160px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.800);
+    margin: 8px;
+
+}
+.caja9{
+    width: 176px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.900);
+    margin: 8px;
+
+}
+
+.box1{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.100);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 8px;
+}
+.box2{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.200);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 16px;
+}
+.box3{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.300);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 24px;
+}
+.box4{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.400);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 32px;
+}
+.box5{width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.500);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 40px;}
+.box6{width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.600);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 48px;}
+.box7{width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.700);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 56px;}
+.box8{width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.800);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 64px;}
+.box9{width: 80px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.900);
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 72px;}
+
+.contenedor1{
+    width: 176px;
+    height: 176px;
+    background-color: rgba(255, 0, 0, 0.900);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.contenedor2{
+    width: 160px;
+    height: 160px;
+    background-color: rgba(255, 32, 32);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.contenedor3{
+    width: 144px;
+    height: 144px;
+    background-color: rgb(255, 64, 64);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.contenedor4{
+    width: 128px;
+    height: 128px;
+    background-color: rgb(255, 96, 96);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.contenedor5{
+    width: 112px;
+    height: 112px;
+    background-color: rgb(255, 128, 128);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.contenedor6{
+    width: 96px;
+    height: 96px;
+    background-color: rgb(255, 160, 160);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.contenedor7{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 192, 192);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.contenedor8{
+    width: 64px;
+    height: 64px;
+    background-color: rgb(255, 224, 224);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.contenedor9{
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.margen{}
+
