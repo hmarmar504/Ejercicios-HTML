@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: stretch;justify-content: stretch;
+}
+header{
+
+    text-align: center;
+    font-size: xx-large;
+    background-color: grey;
+    flex-grow: 1;
+}
+main{
+    display: flex;
+    flex-direction: row;
+
+    flex-grow: 5;
+}
+nav{
+    flex-grow: 1;
+    order: 0;
+    background-color: green;
+}
+article{
+    background-color: yellow;
+    order: 1;
+    flex-grow: 2;
+}
+aside{
+    background-color: blue;
+    order: 2;
+    flex-grow: 1;
+}
+footer{
+    background-color: grey;
+    flex-grow: 1;
+}

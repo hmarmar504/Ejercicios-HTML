@@ -1,0 +1,24 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    height: 300px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    height: 25%;
+    margin: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.in{
+    background-color: white;
+    font-size: larger;
+}
+.sub div{
+    margin: 15px;
+}

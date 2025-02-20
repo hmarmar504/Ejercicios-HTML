@@ -1,0 +1,13 @@
+.inicio{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:stretch;
+}
+.bloque{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
