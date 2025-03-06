@@ -140,7 +140,7 @@ img{
     position: relative;
 }
 .capImagen{
-    background-image: url(/Imagenes/fondo.jpg);
+    background-image: url(Imagenes/fondo.jpg);
     height: 300px;
 }
 
@@ -166,7 +166,7 @@ img{
     position: relative;
   }
   .CabInicio{
-    background: url(/Imagenes/Sin\ título4.png) no-repeat ;
+    background: url(Imagenes/Sin\ título4.png) no-repeat ;
     width: 15%;
     background-color: #fadb2fcb;
   }
@@ -179,7 +179,7 @@ img{
     background-color: #ff9ea698;
 }
   .CabTienda{
-    background: url(/Imagenes/Sin\ titulo3.png) no-repeat ;
+    background: url(Imagenes/Sin\ titulo3.png) no-repeat ;
     width: 15%;
     background-color: #ff9ea698;
   }
@@ -188,7 +188,7 @@ img{
     background-color: #398d786c;
 }
   .CabContacto{
-    background: url(/Imagenes/Sin\ título5.png) no-repeat ;
+    background: url(Imagenes/Sin\ título5.png) no-repeat ;
     width: 15%;
     background-color: #398d786c;
   }
@@ -197,7 +197,7 @@ img{
     background-color: #b8181296;
 }
   .CabExtra{
-    background: url(/Imagenes/Sin\ título7.png) no-repeat ;
+    background: url(Imagenes/Sin\ título7.png) no-repeat ;
     width: 15%;
     background-color: #b8181296;
   }

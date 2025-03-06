@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    li.slider {
+            width: 25%;
+            height: 100%;
+            position: absolute;
+            left: 25%;
+            top: 0;
+            background-color: #e46c86dc;
+            z-index: 8;
+            transition: left .4s, background-color .4s;
+        }
+</style>
+<body>
+    <div class="cabecera">
+        <ul class="menu">
+            <li><div class="navega" ><a href="Index.html">Inicio</a></div></li>
+            <li><div class="navActive"><a href="Productos.html">Productos</a></div></li>
+            <li><div class="navega"><a href="Contacto.html">Contacto</a></div></li>
+            <li><div class="navega"><a href="Extra.html">Extra</a></div></li>
+            <li class="slider"></li>
+        </ul>
+        
+    </div>
+</body>
+</html>

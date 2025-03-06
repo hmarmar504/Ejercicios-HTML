@@ -1,3 +1,6 @@
+body{
+    font: bold 12px/20px sans-serif;
+}
 .ods{
     width: 100%;
 }
@@ -122,4 +125,46 @@ li:hover ul#submenu{
 .tabla img{
     margin: 1%;
     width: 14%;
+}
+
+/*Principales retos*/
+.contenido {
+    margin: 20px;
+}
+h1, h2 {
+    color: teal;
+}
+.seccion {
+    margin-bottom: 30px;
+}
+
+iframe {
+    width: 50%;
+    height: 400px;
+    border: none;
+}
+
+.mapa-conceptual {
+    width: 23%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.concepto {
+    background-color: #79efff88;
+    border: 2px solid teal;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.concepto h3 {
+    color: teal;
+    font-size: 20px;
+}
+.imgRetos{
+    width: 20%;
+    border-radius: 8px;
 }
