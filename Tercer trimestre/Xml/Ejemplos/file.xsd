@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="persona">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string" />
+                <xs:element name="mujer" />
+                <xs:element name="fecha_de_nacimiento">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia" type="xs:string" />
+                            <xs:element name="mes" type="xs:string" />
+                            <xs:element name="año" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ciudad" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="profesion" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

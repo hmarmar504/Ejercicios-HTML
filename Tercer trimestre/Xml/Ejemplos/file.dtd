@@ -1,0 +1,9 @@
+<!ELEMENT persona (nombre,mujer,fecha_de_nacimiento,ciudad)>
+<!ATTLIST persona profesion NMTOKEN #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mujer EMPTY>
+<!ELEMENT fecha_de_nacimiento (dia,mes,año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>

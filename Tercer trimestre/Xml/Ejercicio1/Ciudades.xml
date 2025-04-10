@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file.dtd" type="application/xml-dtd"?>
+<paises>
+    <pais continente="Asia">
+        <Nombre>Nueva Delhi</Nombre>
+        <Pais>India</Pais>
+    </pais>
+
+    <pais continente="Europa">
+        <Nombre>Lisboa</Nombre>
+        <Pais>Portugal</Pais>
+    </pais>
+
+    <pais continente="Africa">
+        <Nombre>El Cairo</Nombre>
+        <Pais>Egipto</Pais>
+    </pais>
+</paises>

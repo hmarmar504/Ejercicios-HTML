@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    li.slider {
+            width: 25%;
+            height: 100%;
+            position: absolute;
+            left: 0%;
+            top: 0;
+            background-color: #e0a911d0;
+            z-index: 8;
+            transition: left .4s, background-color .4s;
+        }
+</style>
+<body>
+    <!--Encabezado-->
+    <header>
+        <div class="encabezado"><h3>Productos</h3></div>
+    </header>
+    <nav>
+        <div class="encabezado">
+            <!--Barra de navegacion-->
+            <ul class="menu">
+                <li class="lista"><a class="navActive" href="Index.html">Inicio</a></li>
+                <li class="lista"><a class="navega" href="Productos.html">Productos</a></li>
+                <li class="lista"><a class="navega" href="Contacto.html">Contacto</a></li>
+                <li class="lista"><a class="navega" href="Extra.html">Extra</a></li>
+                <li class="slider"></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="InicioPrincipal">
+        <aside>
+            <div class="CabInicio"></div>
+        </aside>
+        <div class="InicioContenido">
+
+            <div class="InicioArt">
+                <div class="TitInicio">
+                    <p>Esta pagina va sobre una tienda de productos de Bob Esponja.<br>
+                        Algunos de los productos disponibles en la pagina son peluches de Bob Esponja y sus amigos, a demas de una seleccion de productos varios</p>
+                </div>
+                <div class="Iniproductos">
+                    <div>
+                        <p>Los productos de esta tienda estan hechos de materiales reciclados</p>
+                    </div>
+                    <div>
+                        <p>La contaminacion esta destruyendo el hogar de bob esponja y sus amigos</p>
+                    </div>
+                    <div>
+                        <p>
+                            Esta pagina utiliza energias renovables
+                            <a href="https://www.un.org/sustainabledevelopment/es/energy/"><img height="100px" width="100px" src="Imagenes/ODS7.png"></a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="https://www.un.org/sustainabledevelopment/es/oceans/"><img height="100px" width="100px" src="Imagenes/ODS14.png"></a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="InicioArt">
+                <div class="TitInicio">
+                    <p>Informacion sobre el creador
+                    </p>
+                </div>
+                <div class="Iniproductos">
+                    <div>
+                        <p>Su creador es Hector Martinez de la clase de DAW en el IES Pedro Jimenez Montoya	</p>
+                    </div>
+                    <div></div>
+                    <div>
+                        <p>La deicison de hacer la pagina de Bob Esponja se debe a el juego que podria dar entre los colores y los personajes para cada apartado de la pagina</p>
+                    </div>
+                    <div>
+                        <p>Este proyecto no deberia llevar css incluido, pero me vi un par de tutoriales y pense en hacerselo para la barra de navegacion, y tambien para no tener 50 lineas extra en cada html
+                        </p>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+</body>
+</html>

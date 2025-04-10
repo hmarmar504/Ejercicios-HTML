@@ -1,0 +1,310 @@
+body{
+
+}
+div{   
+    
+}
+/*<-----Estructura General----->*/
+aside{
+    height: 150px;
+    width: 15%;
+}
+p{
+    text-align: center;
+}
+.encabezado{
+    background-color: #343d47;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #343d47;
+    z-index: 7;
+}
+.lista{
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navega{ 
+    border: solid rgba(0, 0, 0, 0.171);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #e2cdcd;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    z-index: 9;
+}
+.navActive {
+    border: solid rgba(0, 0, 0, 0.171);
+    background-color: #049fbb00;
+    pointer-events: none;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #e2cdcd;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    z-index: 9;
+}
+/*<-----Tienda----->*/
+article{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(10,100px) ;
+    grid-gap: 2px;
+    background-color: blanchedalmond;
+    background-color:#ff9ea698
+}
+section{
+    font-size: 1.3em;
+    border: solid 1px red;
+    text-align: center;
+    align-content: center;
+}
+section:nth-child(1){
+grid-area:1 /1 /11/ 2;
+background: url(Imagenes/Sin\ titulo3.png) no-repeat ;
+
+}
+section:nth-child(2){
+grid-area:1 /2 /2/ 6;
+}
+section:nth-child(3){
+grid-area: 2/2/5/2;
+
+}
+section:nth-child(4){
+grid-area:2/3/5/4;
+}
+section:nth-child(5){
+grid-area:2/4/5/5;
+}
+section:nth-child(6){
+grid-area: 2/5/5/6;
+}
+section:nth-child(7){
+
+}
+section:nth-child(8){
+    
+}
+section:nth-child(9){
+    
+}
+section:nth-child(10){
+    
+}
+section:nth-child(11){
+grid-area: 6/2/7/6
+}
+section:nth-child(12){
+grid-area: 7/2/10/3;  
+}
+section:nth-child(13){
+    grid-area: 7/3/10/4
+}
+section:nth-child(14){
+    grid-area: 7/4/10/5
+}
+section:nth-child(15){
+    grid-area: 7/5/10/6
+}
+section.img{
+background-image: url(Imagenes/fondo.jpg);
+}
+.imagen{
+    width: 80%;
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s;
+    position: relative
+    
+  }
+  .imagen:hover{
+    --escala: 1.3;
+    cursor:pointer;
+    position: relative;
+  }
+
+/*<-----Inicio----->*/
+.CabInicio{
+    background: url(Imagenes/Sin\ título4.png) no-repeat ;
+    height: 100%;
+    width: 100%;
+}
+.InicioPrincipal{
+    background-color:#fadb2fcb;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.InicioContenido{
+    height: 100%;
+    width: 85%;
+
+}
+.InicioArt{
+    height: 350px;
+    border-top:solid rgba(0, 0, 0, 0.100);
+    border-left: solid rgba(0, 0, 0, 0.100);
+}
+.TitInicio{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Iniproductos{
+    height: 70%;
+    display: flex;
+}
+.InicioArt div div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid rgba(0, 0, 0, 0.100);
+    border-top:solid rgba(0, 0, 0, 0.100);
+}
+/*<-----Contacto----->*/
+.CabContacto{
+    background: url(Imagenes/Sin\ título5.png) no-repeat ;
+    height: 100%;
+    width: 100%;
+}
+.ContactoPrincipal{
+    background-color:#398d786c;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.ContactoContenido{
+    height: 100%;
+    width: 85%;
+
+}
+.ContactoArt{
+    height: 350px;
+    border-top:solid rgba(0, 0, 0, 0.100);
+    border-left: solid rgba(0, 0, 0, 0.100);
+}
+.TitContacto{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contactoproductos{
+    height: 70%;
+    display: flex;
+}
+.ContactoArt div div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-right: solid rgba(0, 0, 0, 0.100);
+    border-top:solid rgba(0, 0, 0, 0.100);
+ 
+}
+/*<-----Extra----->*/
+.CabExtra{
+    background: url(Imagenes/Sin\ título7.png) no-repeat ;
+    height: 100%;
+    width: 100%;
+}
+.CapExtra{
+    height: 100%;
+    width: 100%;
+}
+.ExtraPrincipal{
+    background-color:#b8181296;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.ExtraContenido{
+    height: 100%;
+    width: 85%;
+
+}
+.ExtraArt{
+    height: 350px;
+    border-top:solid rgba(0, 0, 0, 0.100);
+    border-left: solid rgba(0, 0, 0, 0.100);
+}
+.TitExtra{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Extraproductos{
+    height: 70%;
+    display: flex;
+}
+.ExtraArt div div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid rgba(0, 0, 0, 0.100);
+    border-top:solid rgba(0, 0, 0, 0.100);
+}
+/*<-----Selector----->*/
+.menu li:nth-child(1):hover,
+.menu li:nth-child(1):focus,
+.menu li:nth-child(1):active {
+& ~ .slider {
+    left: 0;
+    background-color: #e0a911d0;
+    }
+}
+
+
+.menu li:nth-child(2):hover,
+.menu li:nth-child(2):focus,
+.menu li:nth-child(2):active {
+& ~ .slider {
+    left: 25%;
+    background-color: #e46c86dc;
+    }
+}
+
+.menu li:nth-child(3):hover,
+.menu li:nth-child(3):focus,
+.menu li:nth-child(3):active {
+& ~ .slider {
+    left: 50%;
+    background-color: #00998cd3;
+    }
+}
+
+.menu li:nth-child(4):hover,
+.menu li:nth-child(4):focus,
+.menu li:nth-child(4):active {
+& ~ .slider {
+    left: 75%;
+    background-color: #d82626b0;
+    }
+}

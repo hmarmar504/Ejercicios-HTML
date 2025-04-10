@@ -1,0 +1,5 @@
+<!ELEMENT paises (pais+)>
+<!ELEMENT pais (Nombre,Pais)>
+<!ATTLIST pais continente NMTOKEN #REQUIRED>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Pais (#PCDATA)>

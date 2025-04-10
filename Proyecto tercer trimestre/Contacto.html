@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    li.slider {
+            width: 25%;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            background-color: #00998cd3;
+            z-index: 8;
+            transition: left .4s, background-color .4s;
+        }
+</style>
+<body>
+    <!--Encabezado-->
+    <header>
+        <div class="encabezado"><h3>Productos</h3></div>
+    </header>
+    <nav>
+        <div class="encabezado">
+            <!--Barra de navegacion-->
+            <ul class="menu">
+                <li class="lista"><a class="navega" href="Index.html">Inicio</a></li>
+                <li class="lista"><a class="navega" href="Productos.html">Productos</a></li>
+                <li class="lista"><a class="navActive" href="Contacto.html">Contacto</a></li>
+                <li class="lista"><a class="navega" href="Extra.html">Extra</a></li>
+                <li class="slider"></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="ContactoPrincipal">
+        <aside>
+            <div class="CabContacto"></div>
+        </aside>
+        <div class="ContactoContenido">
+
+            <div class="ContactoArt">
+                <div class="TitContacto">
+                    <p>Pagina de contactos de la tineda</p>
+                </div>
+                <div class="Contactoproductos">
+                    <div>
+                        <form action="http://www.enlace.es/formulario.php" method="post"> <!-- action url indica la url que procesa los datos del formulario -->
+                        Escribe tu nombre:
+                        <input type="text" name="nombre" value="" />  <!-- declara los tipos de elementos: botones y cuadros de texto -->
+                        <br/>
+                        <input type="submit" value="Enviar" />
+                        </form>
+                    </div>
+                    <div>
+                        <p>Introduzca nombre de usuario <br/>
+                            <input type="text" name="nombre" value="" placeholder="aqui quillo" /><br/>
+                            <br/>
+                            Introduzca contraseña <br/>
+                            <input type="password" name="contrasena" value="" /><br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ContactoArt">
+                
+                <div class="Contactoproductos">
+                    <div>
+                        <p>Que tipo de cliente eres <br/>
+                            <input type="radio" name="cliente" value="particular" checked="checked" /> Particular
+                            <input type="radio" name="cliente" value="empresa" /> Empresa</p>
+                    </div>
+                    <div>
+                        <p><input height="75px" type="image" name="enviar" src="Imagenes/Enviar.png"/></p>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+</body>
+</html>

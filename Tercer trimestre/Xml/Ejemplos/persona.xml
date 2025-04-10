@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file.dtd" type="application/xml-dtd"?>
+<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<persona profesion="cantante">
+    <nombre>Elsa</nombre>
+    <mujer/>
+    <fecha_de_nacimiento>
+        <dia>18</dia>
+        <mes>6</mes>
+        <año>1996</año>
+    </fecha_de_nacimiento>
+    <ciudad>Pamplona</ciudad>
+    </persona>
