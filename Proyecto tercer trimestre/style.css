@@ -109,10 +109,11 @@ p{
 .tienda{
     display: grid;
     grid-template-columns: 0.7fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(10,100px) ;
+    grid-template-rows: 1fr 3fr 1fr 1fr 3fr 1fr;
     grid-gap: 2px;
     background-color: blanchedalmond;
-    background-color:#ff9ea698
+    background-color:#ff9ea698;
+    height: 150%;
 }
 .tienda section{
     font-size: 1.3em;
@@ -128,34 +129,11 @@ background: url(Imagenes/Sin\ titulo3.png) no-repeat ;
 .tienda section:nth-child(2){
 grid-area:1 /2 /2/ 6;
 }
-.tienda section:nth-child(3){
-grid-area: 2/2/5/2;
 
-}
-.tienda section:nth-child(4){
-grid-area:2/3/5/4;
-}
-.tienda section:nth-child(5){
-grid-area:2/4/5/5;
-}
-.tienda section:nth-child(6){
-grid-area: 2/5/5/6;
-}
 .tienda section:nth-child(11){
-grid-area: 6/2/7/6
+grid-area: 4/2/5/6;
 }
-.tienda section:nth-child(12){
-grid-area: 7/2/10/3;  
-}
-.tienda section:nth-child(13){
-    grid-area: 7/3/10/4
-}
-.tienda section:nth-child(14){
-    grid-area: 7/4/10/5
-}
-.tienda section:nth-child(15){
-    grid-area: 7/5/10/6
-}
+
 .tienda section.img{
 background-image: url(Imagenes/fondo.jpg);
 }
@@ -176,10 +154,13 @@ background-image: url(Imagenes/fondo.jpg);
 .inicio{
     display: grid;
     grid-template-columns: 0.7fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(10,100px) ;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
     grid-gap: 2px;
     background-color: blanchedalmond;
     background-color:#fadb2fcb;
+    text-align: center;
+    font-size: small;
+    height: 80%;
 }
 .inicio section{
     font-size: 1.3em;
@@ -188,88 +169,36 @@ background-image: url(Imagenes/fondo.jpg);
     align-content: center;
 }
 .inicio section:nth-child(1){
-grid-area:1 /1 /11/ 2;
+grid-area:1 /1 /5/ 2;
 background: url(Imagenes/Sin\ título4.png) no-repeat ;
 
 }
 .inicio section:nth-child(2){
 grid-area:1 /2 /2/ 6;
-}
-.inicio section:nth-child(3){
-grid-area: 2/2/5/2;
 
 }
-.inicio section:nth-child(4){
-grid-area:2/3/5/4;
+
+.inicio section:nth-child(7){
+grid-area: 3/2/4/6;
 }
-.inicio section:nth-child(5){
-grid-area:2/4/5/5;
+.inicio section:nth-child(8){
+grid-area: 4/2/5/3;  
 }
-.inicio section:nth-child(6){
-grid-area: 2/5/5/6;
-}
+.inicio section:nth-child(9){
+    grid-area: 4/3/5/4;  }
+.inicio section:nth-child(10){
+    grid-area: 4/4/5/5;  }
 .inicio section:nth-child(11){
-grid-area: 6/2/7/6
-}
-.inicio section:nth-child(12){
-grid-area: 7/2/10/3;  
-}
-.inicio section:nth-child(13){
-    grid-area: 7/3/10/4
-}
-.inicio section:nth-child(14){
-    grid-area: 7/4/10/5
-}
-.inicio section:nth-child(15){
-    grid-area: 7/5/10/6
-}
+    grid-area: 4/5/5/6;  }
 .inicio section.img{
 background-image: url(Imagenes/fondo.jpg);
 }
-.CabInicio{
-    background: url(Imagenes/Sin\ título4.png) no-repeat ;
-    height: 100%;
-    width: 100%;
-}
-.InicioPrincipal{
-    background-color:#fadb2fcb;
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
-.InicioContenido{
-    height: 100%;
-    width: 85%;
 
-}
-.InicioArt{
-    height: 350px;
-    border-top:solid rgba(0, 0, 0, 0.100);
-    border-left: solid rgba(0, 0, 0, 0.100);
-}
-.TitInicio{
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Iniproductos{
-    height: 70%;
-    display: flex;
-}
-.InicioArt div div{
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: solid rgba(0, 0, 0, 0.100);
-    border-top:solid rgba(0, 0, 0, 0.100);
-}
 /*<-----Contacto----->*/
 .contacto{
     display: grid;
-    grid-template-columns: 0.7fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(5,100px) ;
+    grid-template-columns: 0.7fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
     grid-gap: 2px;
     background-color: blanchedalmond;
     background-color:#398d786c;
@@ -281,69 +210,43 @@ background-image: url(Imagenes/fondo.jpg);
     border: solid 1px red;
     text-align: center;
     align-content: center;
-   
+   align-items: center;
 }
 .contacto section:nth-child(1){
-grid-area:1 /1 /6/ 2;
+grid-area:1 /1 /4/ 2;
 background: url(Imagenes/Sin\ título5.png) no-repeat ;
 }
 .contacto section:nth-child(2){
-    grid-area: 1/2/2/6;
-}
-.contacto section:nth-child(3){
-    grid-area: 2/2/4/4;
-}
-.contacto section:nth-child(4){
-    grid-area: 2/4/4/6;
-}
-.contacto section:nth-child(5){
-    grid-area: 4/2/6/4;
-}
-.contacto section:nth-child(6){
-    grid-area: 4/4/6/6;
+    grid-area: 1/2/2/4;
 }
 
 /*<-----Extra----->*/
-.CabExtra{
-    background: url(Imagenes/Sin\ título7.png) no-repeat ;
-    height: 100%;
-    width: 100%;
-}
-.CapExtra{
-    height: 100%;
-    width: 100%;
-}
-.ExtraPrincipal{
+.extra{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-gap: 2px;
+    background-color: blanchedalmond;
     background-color:#b8181296;
-    display: flex;
-    height: 100%;
-    width: 100%;
+    text-align: center;
+    font-size: small;
+    height: 80%;
 }
-.ExtraContenido{
-    height: 100%;
-    width: 85%;
+.extra section{
+    font-size: 1.3em;
+    border: solid 1px red;
+    text-align: center;
+    align-content: center;
+}
+.extra section:nth-child(1){
+grid-area:1 /1 /5/ 2;
+background: url(Imagenes/Sin\ título7.png) no-repeat ;
 
 }
-.ExtraArt{
-    height: 350px;
-    border-top:solid rgba(0, 0, 0, 0.100);
-    border-left: solid rgba(0, 0, 0, 0.100);
+.extra section:nth-child(2){
+grid-area:1 /2 /2/ 6;
 }
-.TitExtra{
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.Extraproductos{
-    height: 70%;
-    display: flex;
-}
-.ExtraArt div div{
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: solid rgba(0, 0, 0, 0.100);
-    border-top:solid rgba(0, 0, 0, 0.100);
+.extra section img{
+    height: 100%;
+    width: 100%;
 }
